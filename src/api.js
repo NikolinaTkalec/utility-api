@@ -9,7 +9,6 @@ export const getAllNews = () => {
       apiKey: process.env.NEWSAPI_KEY,
     },
   };
-  debugger;
   return axiosGet(url, params);
 };
 
